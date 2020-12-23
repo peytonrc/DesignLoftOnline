@@ -1,12 +1,11 @@
-#title {
-	border: solid black 1px;
-	background-color: palegreen;
-}
 
-body {
+body{
 	font-family: "Nunito", sans-serif;
-	background: url('assets/us.jpg') no-repeat center center fixed; 
+	background-image: url('assets/photo.jpg');
+	background-position: center 100px;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	
 	
 }
