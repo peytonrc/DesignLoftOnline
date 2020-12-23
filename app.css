@@ -2,3 +2,11 @@
 	border: solid black 1px;
 	background-color: palegreen;
 }
+
+body {
+	font-family: "Nunito", sans-serif;
+	background: url('assets/us.jpg') no-repeat center center fixed; 
+	background-size: cover;
+	
+	
+}
