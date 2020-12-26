@@ -10,12 +10,12 @@ body{
 	
 }
 
-.navbar-nav.navbar-center {
+/* .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
 	transform: translatex(-50%);
 	
-}
+} */
 
 #one {
 	padding-right: 60px; 
@@ -27,7 +27,7 @@ body{
 	padding-top: 45px;
 }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
     #one {
 		padding-right: 8px; 
 		padding-top: 45px;
@@ -37,18 +37,8 @@ body{
 		padding-left: 8px; 
 		padding-top: 45px;
 	}
-}
+} */
 
 
-@media (max-width: 320px){
-    #one {
-		padding-right: 1px; 
-		padding-top: 45px;
-	}
 
-	#two {
-		padding-left: 1px; 
-		padding-top: 45px;
-	}
-}
 
