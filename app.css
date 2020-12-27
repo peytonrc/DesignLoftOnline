@@ -16,37 +16,13 @@ body{
 	}
 }
 
-
-
-/* .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-	transform: translatex(-50%);
-	
-} */
-
-/* #one {
-	padding-right: 60px; 
-	padding-top: 45px;
+a {
+	color: #d0b0b0;
+	font-size: 15px;
 }
 
-#two {
-	padding-left: 60px; 
-	padding-top: 45px;
-} */
-
-/* @media (max-width: 600px){
-    #one {
-		padding-right: 8px; 
-		padding-top: 45px;
-	}
-
-	#two {
-		padding-left: 8px; 
-		padding-top: 45px;
-	}
-} */
-
-
+a:hover {
+	color: #acacac;
+}
 
 
