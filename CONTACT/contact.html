@@ -20,23 +20,24 @@
 
 </head>
 <html>
+
 <body>
-    <nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation">
 
 		<div class="container-fluid">
 			<div class="navbar-header logo">
-				
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
-				 <span class="sr-only">Toggle navigation</span>
-				 <span class="icon-bar"></span>
-				 <span class="icon-bar"></span>
-				 <span class="icon-bar"></span>
-			  </button>
 
-			</div>   
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div>
 
 			<div class="collapse navbar-collapse" id="nav-collapse">
-					<!-- Individual Navbar elements -->
+				<!-- Individual Navbar elements -->
 				<ul class="nav nav-justified nasti-nav">
 
 					<li class="active"><a href="/index.html">HOME</a>
@@ -66,10 +67,38 @@
 
 					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
-			</div> 
+			</div>
 		</div>
 
 	</nav>
-<div>
-	<h1>contact</h1>
-</div>
+	<div>
+		<h1>Send us an email</h1>
+		<div class="container">
+			<form action="https://formspree.io/peytnrose@gmail.com" method="POST">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="First and Last Name" id="name" required=""
+						data-validation-required-message="Please enter your name" name="name">
+					<p class="help-block text-danger"></p>
+				</div>
+
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="you@email.com" id="email"
+						required="" data-validation-required-message="Please enter your email address" name="_replyto">
+					<p class="help-block text-danger"></p>
+				</div>
+
+				<div class="form-group">
+					<textarea placeholder="Your message" class="form-control" rows="6"
+						placeholder="Your Message" required="" data-validation-required-message="Please leave a message"
+						name="message"></textarea>
+					<p class="help-block text-danger"></p>
+				</div>
+
+
+				<div class="col-md-12 text-center">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">SUBMIT</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
