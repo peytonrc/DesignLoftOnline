@@ -10,6 +10,12 @@ body{
 	
 }
 
+@media (max-width: 767px){
+    #img {
+		display: none;
+	}
+}
+
 /* .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -17,7 +23,7 @@ body{
 	
 } */
 
-#one {
+/* #one {
 	padding-right: 60px; 
 	padding-top: 45px;
 }
@@ -25,7 +31,7 @@ body{
 #two {
 	padding-left: 60px; 
 	padding-top: 45px;
-}
+} */
 
 /* @media (max-width: 600px){
     #one {
