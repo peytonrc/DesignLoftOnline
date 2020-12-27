@@ -10,11 +10,13 @@ body{
 	
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     #img {
 		display: none;
 	}
 }
+
+
 
 /* .navbar-nav.navbar-center {
     position: absolute;
