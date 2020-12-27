@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    #img {
+		display: none;
+	}
+}
+
+a {
+	color: #d0b0b0;
+	font-size: 15px;
+}
+
+a:hover {
+	color: #acacac;
+}
