@@ -22,7 +22,7 @@
 <html>
 
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav id="nav" class="navbar navbar-default" role="navigation">
 
 		<div class="container-fluid">
 			<div class="navbar-header logo">
@@ -40,20 +40,20 @@
 				<!-- Individual Navbar elements -->
 				<ul class="nav nav-justified nasti-nav">
 
-					<li class="active"><a href="/index.html">HOME</a>
+					<li id="active"><a href="/index.html">HOME</a>
 					</li>
 
 					<li class="divider">
 					</li>
 
-					<li><a href="/PORTFOLIO/portfolio.html">PORTFOLIO</a>
+					<li><a href="PORTFOLIO/portfolio.html">PORTFOLIO</a>
 					</li>
 
 					<li class="divider">
 					</li>
 
-					<li class=" nav-item">
-						<img id="img" style="height: 120px; width: 120px;" src="/assets/Official Logo.png" alt="Logo">
+					<li class="nav-item" style= "border: 1px solid white;">
+						<img id="img" src="/assets/Web Logo.png" alt="Logo">
 					</li>
 
 					<li class="divider">
@@ -65,42 +65,47 @@
 					<li class="divider">
 					</li>
 
-					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="/CONTACT/contact.html">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
 
 	</nav>
-	<div>
-		<h1>Send us an email</h1>
-		<div class="conatiner">
-			<div class="row">
-				<form style="width: 100%; padding-left: 20px; padding-right: 20px;"
+	<div class="row">
+		
+		<div class="col-xs-3"></div>
+		<div class="col-xs-6" id="signup">
+			
+				<form
+				
 					action="https://formspree.io/f/moqppkzy" method="POST">
 
+					<h2>Contact Us</h2>
+
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Your Name" id="name" required=""
+						<input type="text" class="form-control" placeholder="First and Last Name" id="name" required=""
 							data-validation-required-message="Please enter your name" name="name">
 						<p class="help-block text-danger"></p>
 					</div>
 
 					<div class="form-group">
-						<input type="email" class="form-control" style="margin-top:20px" placeholder="Your Email"
+						<input type="email" class="form-control"  placeholder="Email Address"
 							id="email" required="" data-validation-required-message="Please enter your email"
 							name="_replyto">
 						<p class="help-block text-danger"></p>
 					</div>
 
 					<div class="form-group">
-						<textarea style="margin-top:20px" placeholder="Your message" class="form-control" rows="7"
+						<textarea placeholder="Message" class="form-control" rows="7"
 							placeholder="Your Message" required=""
 							data-validation-required-message="Please leave a message" name="message"></textarea>
 						<p class="help-block text-danger"></p>
 					</div>
 
-					<div class="col-md-12 text-center">
-						<button type="submit" value="send" class="btn btn-primary">SUBMIT</button>
+					<div>
+						<button type="submit" value="send" class="btn btn-primary">SEND</button>
 					</div>
 				</form>
-			</div>
+			
 		</div>
+		<div class="col-xs-3"></div>

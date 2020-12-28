@@ -10,9 +10,18 @@ body{
 	
 }
 
+
 #nav {
 	background-color: white;
 }
+
+.nav-item #img{
+position: cover;
+width: 100%;
+height: 100%px;
+}
+
+
 
 @media (max-width: 767px) {
     #img {
