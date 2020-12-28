@@ -1,12 +1,30 @@
+body{
+	font-family: "Nunito", sans-serif;
+}
+
 @media (max-width: 767px) {
     #img {
 		display: none;
 	}
 }
 
+#img {
+	position: center;
+}
+
+.nav-item #img{
+	position: cover;
+	width: 100%;
+	height: 100%px;
+	}
+
 a {
 	color: #d08c93;
 	font-size: 15px;
+}
+
+#nav {
+	background-color: white;
 }
 
 a:hover {
