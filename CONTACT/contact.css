@@ -1,6 +1,13 @@
 body{
-	font-family: "Nunito", sans-serif;
+	font-family: 'sans-serif';
 }
+
+@font-face {
+	font-family: 'sans-serif';
+	src: url('/assets/Champagne\ &\ Limousines.ttf');
+
+}
+
 
 @media (max-width: 767px) {
     #img {
@@ -20,7 +27,7 @@ body{
 
 a {
 	color: #d08c93;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 #nav {
