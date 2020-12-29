@@ -1,5 +1,11 @@
 body{
 	font-family: 'sans-serif';
+	background-image: url('/assets/smoke\ background.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
 }
 
 @font-face {
@@ -39,11 +45,25 @@ a:hover {
 }
 
 h2 {
-	color: #d08c93;
+	color: white;
 	padding-bottom: 20px;
+	
 }
 
 #signup {
 	text-align: center;
 	padding: 0 40px 0 40px;
+
+}
+
+button {
+	opacity: 1;
+	transition: 0.7s;
+	background-color: white;
+	color: black;
+}
+
+button:hover {
+	background-color: lightslategray;
+	opacity: .7;
 }
