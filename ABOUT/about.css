@@ -1,5 +1,11 @@
 body{
 	font-family: "Nunito", sans-serif;
+	background-image: url('/assets/about\ us.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
 }
 
 @media (max-width: 767px) {

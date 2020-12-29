@@ -31,6 +31,20 @@ a:hover {
 	color: #acacac;
 }
 
-.card {
-	border: 1px solid black;
+#title {
+	padding-top: 30px;
+}
+	
+
+
+.list-group {
+	margin: 0 auto;
+	width: 200px;
+	padding-top: 30px;
+
+}
+
+.list-group a:hover {
+	text-decoration: none;
+	color: black;
 }
