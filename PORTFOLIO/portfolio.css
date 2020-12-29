@@ -30,3 +30,7 @@ a {
 a:hover {
 	color: #acacac;
 }
+
+.card {
+	border: 1px solid black;
+}
