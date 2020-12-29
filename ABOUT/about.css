@@ -1,10 +1,6 @@
 body{
 	font-family: "Nunito", sans-serif;
-	background-image: url('/assets/about\ us.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	
 	
 }
 
@@ -31,8 +27,48 @@ a {
 
 #nav {
 	background-color: white;
+	margin-bottom: 50px;
 }
 
 a:hover {
 	color: #acacac;
 }
+
+p {
+	font-size: 15px;
+	
+}
+
+.bio {
+	padding: 10px 0px 30px 70px;
+	
+}
+
+#rectangle {
+    border: solid 1px #e4b4bb;
+    width:248px;
+    height:30px;
+	background-color: #e4b4bb;
+}
+
+.row img {
+	width: 210px;
+	height: 260px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+div.col-4 {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.container{
+	text-align:center;
+}
+
+.container img{
+	display:inline-block;
+}
+
