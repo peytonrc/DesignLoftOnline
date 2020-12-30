@@ -45,20 +45,41 @@ a:hover {
 
 
 
-a .card.col-md-6{
+.card.col-md-6{
 	border: 1px solid white;
-	padding: 15px;
+	padding: 10px;
     margin: 0 auto;
- 
+	transition: 0.7s;
 }
 
-a .card.col-xl-3{
+.card.col-lg-3{
 	border: 1px solid white;
-	padding: 15px;
-	margin-top: 110px;
+	padding: 10px;
+	transition: 0.7s;
+	
+}
+
+.card.col-md-6:hover {
+	transition: 0.7s;
+	opacity: .3;
+}
+
+.card.col-lg-3:hover {
+	transition: 0.7s;
+	opacity: .3;
+}
+
+#inactive:hover {
+	opacity: .99;
+
 }
 
   
-
+@media (min-width: 992px) {
+    .card.col-lg-3 {
+		margin-top: 50px;
+	}
+	
+}
 
 
