@@ -39,19 +39,26 @@ a:hover {
 }
 
 #title {
-	padding-top: 30px;
-}
-	
-
-
-.list-group {
-	margin: 0 auto;
-	width: 200px;
-	padding-top: 30px;
-
+	padding-top: 60px;
+	color: #70716f;
 }
 
-.list-group a:hover {
-	text-decoration: none;
-	color: black;
+
+
+a .card.col-md-6{
+	border: 1px solid white;
+	padding: 15px;
+    margin: 0 auto;
+ 
 }
+
+a .card.col-xl-3{
+	border: 1px solid white;
+	padding: 15px;
+	margin-top: 110px;
+}
+
+  
+
+
+
