@@ -1,15 +1,13 @@
-
-@font-face {
-	font-family: 'sans-serif';
-	src: url('/assets/Champagne\ &\ Limousines.ttf');
-
-	
-}
-
 body{
 	font-family: 'sans-serif';
 	
 } 
+
+@font-face {
+	font-family: 'sans-serif';
+	src: url('/assets/Poison-Regular.otf');
+
+}
 
 a #img{
 	position: cover;

@@ -4,36 +4,25 @@ body{
 
 @font-face {
 	font-family: 'sans-serif';
-	src: url('/assets/Champagne\ &\ Limousines.ttf');
+	src: url('/assets/Poison-Regular.otf');
 
-}
-
-
-@media (max-width: 767px) {
-    #img {
-		display: none;
-	}
-}
-
-#img {
-	position: center;
 }
 
 a #img{
 	position: cover;
 	width: 75px;
 	margin-left: 10px;
-	}
+}
 	
-	.navbar-light .navbar-nav .nav-link {
-		font-size: 18px;
-		color: #70716f;
-	}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 18px;
+	color: #70716f;
+}
 	
-	.navbar-light .navbar-nav .nav-link:hover {
-		transition: .6s;
-		color: #e4b4bb;
-	}
+.navbar-light .navbar-nav .nav-link:hover {
+	transition: .6s;
+	color: #e4b4bb;
+}
 
 #title {
 	padding-top: 60px;

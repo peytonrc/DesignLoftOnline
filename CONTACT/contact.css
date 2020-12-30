@@ -1,6 +1,6 @@
 body{
 	font-family: 'sans-serif';
-	background-image: url('/assets/smoke\ background.png');
+	background-image: url('/assets/contact\ background.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -10,10 +10,9 @@ body{
 
 @font-face {
 	font-family: 'sans-serif';
-	src: url('/assets/Champagne\ &\ Limousines.ttf');
+	src: url('/assets/Poison-Regular.otf');
 
 }
-
 
 a #img{
 position: cover;
@@ -43,7 +42,7 @@ h2 {
 
 }
 
-button:hover {
+#btn:hover {
 	background-color: #70716f;
 	transition: .5s;
 	opacity: .6;
