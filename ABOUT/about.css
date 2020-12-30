@@ -33,9 +33,9 @@ p {
 }
 
 .bio {
-	margin-left: 100px;
+	margin-left: 60px;
 	margin-bottom: 50px;
-	margin-right: 100px;
+	margin-right: 60px;
 }
 
 #rectangle {
@@ -44,7 +44,7 @@ p {
     height:30px;
 	background-color: #e4b4bb;
 	margin-bottom: 20px;
-	margin-top: 30px;
+	margin-top: 60px;
 }
 
 .row img {
