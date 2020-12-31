@@ -33,10 +33,10 @@ p {
 }
 
 .bio {
-	margin-top: 35px;
-	margin-left: 40px;
+	text-align: center;
+	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-right: 60px;
+	
 }
 
 .row img {
@@ -51,22 +51,20 @@ p {
 }
 
 
-
-
 @media (max-width: 992px) {
     .photo {
 		display: block;
 		
 	}
 	#candice {
-		margin-bottom: 40px;
+		margin-bottom: 50px;
 		margin-right: 0;
 	}
 	#peyton {
-		margin-bottom: 40px;
+		margin-bottom: 50px;
 	}
 	#haley {
-		margin-bottom: 40px;
+		margin-bottom: 50px;
 		margin-left: 0;
 	}
 
