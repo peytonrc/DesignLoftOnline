@@ -24,14 +24,17 @@ a #img{
 	color: #e4b4bb;
 }
 
+h2 {
+	color: #70716f;
+}
 p {
 	font-size: 18px;
 	
 }
 
 .bio {
-	margin-left: 60px;
-	margin-bottom: 50px;
+	margin-left: 40px;
+	margin-bottom: 40px;
 	margin-right: 60px;
 }
 
@@ -41,12 +44,12 @@ p {
     height:30px;
 	background-color: #e4b4bb;
 	margin-bottom: 20px;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .row img {
-	width: 210px;
-	height: 260px;
+	width: 270px;
+	height: 280px;
 	
 }
 
@@ -54,6 +57,7 @@ p {
 	text-align: center;
 	
 }
+
 
 
 
