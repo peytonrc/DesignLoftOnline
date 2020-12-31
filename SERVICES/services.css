@@ -42,14 +42,15 @@ p {
 	font-size: 18px;
 	
 }
-.col-lg-4.col-md-6.col-sm-12 {
+
+.col-md-4 {
 	display: flex;
 	justify-content: center;
 	
 }
 
-.container img {
-	width: 100%;
-  	display: block;
-	margin: 30px;
+.row img {
+	width: 270px;
+	height: 280px;
+	margin: 20px;
 }

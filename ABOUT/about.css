@@ -39,15 +39,6 @@ p {
 	margin-right: 60px;
 }
 
-#rectangle {
-    border: solid 1px #e4b4bb;
-    width:248px;
-    height:30px;
-	background-color: #e4b4bb;
-	margin-bottom: 20px;
-	margin-top: 40px;
-}
-
 .row img {
 	width: 270px;
 	height: 280px;
