@@ -2,6 +2,7 @@ body{
 	font-family: 'sans-serif';
 	letter-spacing: 1px;
 
+	
 }
 
 @font-face {
@@ -11,16 +12,16 @@ body{
 }
 
 a #img{
-	position: cover;
-	width: 1.2in;
-	
+position: cover;
+width: 1.2in;
 }
-	
+
 .navbar-light .navbar-nav .nav-link {
 	font-size: 18px;
 	color: #70716f;
-}
 	
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
 	transition: .6s;
 	color: #e4b4bb;
@@ -29,24 +30,17 @@ a #img{
 .container{
 	margin-top: 50px;
 	
+	
 }
 
 .col-lg-4.col-md-6.col-sm-12 {
-	border: 1px solid grey;
 	display: flex;
 	justify-content: center;
 	
 }
 
 .container img {
-	width: 100%;
-	margin: auto;
+	width: 90%;
   	display: block;
-	border: 1px solid red;
-	cursor: pointer;
-	transition: 0.3s;
-}
-
-.container img:hover {
-	opacity: 0.7;
+	margin: 30px;
 }
