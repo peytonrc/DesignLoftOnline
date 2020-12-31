@@ -50,3 +50,17 @@ a #img{
 .container img:hover {
 	opacity: 0.7;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: rgb(236, 198, 204);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
