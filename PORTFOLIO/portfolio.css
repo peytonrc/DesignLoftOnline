@@ -34,7 +34,7 @@ a #img{
 }
 
 .col-lg-4.col-md-6.col-sm-12 {
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	display: flex;
 	justify-content: center;
 	padding: 15px;
@@ -45,7 +45,7 @@ a #img{
 	width: 100%;
 	margin: auto;
   	display: block;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	cursor: pointer;
 	transition: 0.3s;
 }
