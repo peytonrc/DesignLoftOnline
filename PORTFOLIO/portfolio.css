@@ -1,6 +1,7 @@
 body{
 	font-family: 'sans-serif';
 	letter-spacing: 1px;
+	background-color: rgb(216, 212, 212) ;
 
 }
 
@@ -19,6 +20,7 @@ a #img{
 .navbar-light .navbar-nav .nav-link {
 	font-size: 18px;
 	color: #70716f;
+	padding-left: 15px;
 }
 	
 .navbar-light .navbar-nav .nav-link:hover {
@@ -35,6 +37,7 @@ a #img{
 	border: 1px solid grey;
 	display: flex;
 	justify-content: center;
+	padding: 15px;
 	
 }
 
@@ -47,13 +50,13 @@ a #img{
 	transition: 0.3s;
 }
 
-.container img:hover {
-	opacity: 0.7;
+.container .webs:hover {
+	opacity: 0.5;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: rgb(236, 198, 204);
+    background-color: rgb(216, 212, 212);
 }
 
 a {
@@ -64,3 +67,8 @@ a {
 a:hover {
 	color: red;
 }
+
+.graphics:hover {
+	opacity: .5;
+}
+

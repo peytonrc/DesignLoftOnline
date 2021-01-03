@@ -19,6 +19,7 @@ width: 1.2in;
 .navbar-light .navbar-nav .nav-link {
 	font-size: 18px;
 	color: #70716f;
+	padding-left: 15px;
 	
 }
 
@@ -40,7 +41,8 @@ h2 {
 
 p {
 	font-size: 16px;
-	
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .col-md-4 {
