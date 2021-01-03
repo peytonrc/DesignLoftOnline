@@ -1,7 +1,7 @@
 body{
 	font-family: 'sans-serif';
 	letter-spacing: 1px;
-	background-color: rgb(216, 212, 212) ;
+	background-color: white;
 
 }
 
@@ -55,8 +55,8 @@ a #img{
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: rgb(216, 212, 212);
+    color: grey;
+    background-color: white;
 }
 
 a {
@@ -65,7 +65,8 @@ a {
 }
 
 a:hover {
-	color: red;
+	text-decoration: none;
+	color: grey;
 }
 
 .graphics:hover {
