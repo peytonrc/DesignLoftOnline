@@ -16,6 +16,7 @@ body{
 
 }
 
+
 a #img{
 position: cover;
 width: 1.2in;
@@ -26,7 +27,7 @@ padding-left: 15px;
 .navbar-light .navbar-nav .nav-link {
 	font-size: 18px;
 	color: #70716f;
-	padding-left: 15px;
+	padding-left: 25px;
 	
 }
 
