@@ -37,7 +37,6 @@ a.nav-link:hover {
 	justify-content: center;
 	padding: .5rem;
 	
-	
 }
 
 p {
@@ -57,10 +56,6 @@ p {
 .container .webs:hover {
 	opacity: 0.5;
 }
-
-/* .row {
-	margin-bottom: 30px;
-} */
 
 .nav-tabs .nav-link.active, .nav-pills .show>.nav-link {
     color: #70716f;
