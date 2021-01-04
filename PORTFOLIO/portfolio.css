@@ -31,10 +31,7 @@ a.nav-link:hover {
 }
 
 
-
-
 p {
-	padding-top: 2rem;
 	color: #70716f;
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -50,6 +47,10 @@ p {
 	padding: 15px;
 	
 	
+}
+
+.row p {
+	margin-top: 1rem;
 }
 
 .container img {
