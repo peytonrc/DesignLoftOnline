@@ -46,7 +46,7 @@ p {
 
 .container img {
 	width: 100%;
-	margin: auto;
+	margin: auto ;
   	display: block;
 	/* border: 1px solid red; */
 	cursor: pointer;
