@@ -25,18 +25,22 @@ a #img{
 	
 a.nav-link:hover {
 	transition: .4s;
-	color: grey;
+	color: #70716f;
 	border: none;
 	border-bottom: 2px solid white;
 }
 
-.container{
-	margin-top: 20px;
-	
-}
+
+
 
 p {
-	padding-top: 40px;
+	padding-top: 2rem;
+	color: #70716f;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-block-start: 0;
+    margin-block-end: 0;
+	
 }
 
 .col-lg-4.col-md-6.col-sm-12 {
@@ -61,8 +65,12 @@ p {
 	opacity: 0.5;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: grey;
+/* .row {
+	margin-bottom: 30px;
+} */
+
+.nav-tabs .nav-link.active, .nav-pills .show>.nav-link {
+    color: #70716f;
     background-color: white;
 }
 
@@ -73,11 +81,15 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: grey;
+	color: #70716f;
 }
 
 .graphics:hover {
 	opacity: .5;
+}
+
+#smallnav {
+	margin-bottom: 30px;
 }
 
 @media (max-width: 583px){
