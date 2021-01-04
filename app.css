@@ -19,7 +19,8 @@ body{
 a #img{
 position: cover;
 width: 1.2in;
-padding-left: 10px;
+padding-left: 15px;
+
 }
 
 .navbar-light .navbar-nav .nav-link {
