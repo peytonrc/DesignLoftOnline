@@ -88,3 +88,20 @@ a:hover {
   
 }
 
+svg {
+	padding-bottom: 5px;
+}
+
+@media (max-width: 991px){
+   .navExtend {
+	display: none;
+    }
+}
+
+@media (min-width: 992px){
+	.navCol {
+	 display: none;
+	 }
+ }
+
+
